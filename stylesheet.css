@@ -1,0 +1,105 @@
+
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: rgb(32, 25, 216);
+    
+  }
+  .search{
+      font-size: 20px;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100px;
+      width: 250px;
+     
+    }
+
+    input[type=text] {
+        width: 250px;
+        font-size: 20px;
+        border-radius: 10px;
+      }
+
+      input :hover{
+         
+      }
+
+    
+  
+
+
+.content{
+    height: 100px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+
+.input {
+    float: center;
+    padding: 6px;
+    font-size: 17px
+}
+.button {
+    margin-left: auto;
+    margin-right: auto;
+   
+   width: 250px;
+   height: 100px;
+   
+}
+
+.button button :hover{
+   
+    border-color: silver;
+    
+}
+
+.navigation li :hover{
+    text-decoration: underline;
+
+}
+
+
+.leftbottom {
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 100px;
+    background-color:rgba(94, 81, 107, 0.534) ;
+}
+
+.footer{
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 0px;
+    background-color:rgba(94, 81, 107, 0.534);
+    
+}
+
+.l {
+    text-align: left;
+    margin-right: 20px;
+}
+.r {
+    position: right;
+    
+    margin-left: 50px;
+    
+    margin-right: 20px;
+
+}
